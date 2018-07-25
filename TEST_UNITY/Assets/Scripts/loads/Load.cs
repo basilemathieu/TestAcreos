@@ -75,6 +75,13 @@ public class Load : MonoBehaviour
             m_transparentModel.material.color = new Color(1, 1, 1, 0.5f);
         }
     }
+    public void ClearDropZone()
+    {
+        foreach (Renderer model in m_dropZoneTarget.GetComponentsInChildren<Renderer>())
+        {
+            Destroy(model.gameObject);
+        }
+    }
 
 }
 

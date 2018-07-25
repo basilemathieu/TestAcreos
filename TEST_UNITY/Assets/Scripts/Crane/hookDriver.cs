@@ -87,6 +87,7 @@ public class HookDriver : MonoBehaviour
         Destroy(m_fixedJoint); //freeing the load
 
         hookFree = true;
+        m_currentload.ClearDropZone();
         m_loadCanvas.HighLightLoad(m_currentload, false);
         m_currentload = null;
 
