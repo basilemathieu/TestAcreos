@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: af9ef7baf1f095541a77c4cb00f5e32d
+labels:
+- Benne
+timeCreated: 1516964279
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Benne_Beton
+    100004: Benne_Chaine_Droite
+    100006: Benne_Chaine_Gauche
+    100008: Benne_Ouverture
+    100010: Benne_Poignee
+    100012: ConcreteSkip
+    100014: ConcreteSkip_Handle
+    100016: ConcreteSkip_Left_Chain
+    100018: ConcreteSkip_Opening
+    100020: ConcreteSkip_Right_Chain
+    400000: //RootNode
+    400002: Benne_Beton
+    400004: Benne_Chaine_Droite
+    400006: Benne_Chaine_Gauche
+    400008: Benne_Ouverture
+    400010: Benne_Poignee
+    400012: ConcreteSkip
+    400014: ConcreteSkip_Handle
+    400016: ConcreteSkip_Left_Chain
+    400018: ConcreteSkip_Opening
+    400020: ConcreteSkip_Right_Chain
+    2300000: Benne_Beton
+    2300002: Benne_Chaine_Droite
+    2300004: Benne_Chaine_Gauche
+    2300006: Benne_Ouverture
+    2300008: Benne_Poignee
+    2300010: ConcreteSkip
+    2300012: ConcreteSkip_Handle
+    2300014: ConcreteSkip_Left_Chain
+    2300016: ConcreteSkip_Opening
+    2300018: ConcreteSkip_Right_Chain
+    3300000: Benne_Beton
+    3300002: Benne_Chaine_Droite
+    3300004: Benne_Chaine_Gauche
+    3300006: Benne_Ouverture
+    3300008: Benne_Poignee
+    3300010: ConcreteSkip
+    3300012: ConcreteSkip_Handle
+    3300014: ConcreteSkip_Left_Chain
+    3300016: ConcreteSkip_Opening
+    3300018: ConcreteSkip_Right_Chain
+    4300000: Benne_Beton
+    4300002: Benne_Poignee
+    4300004: Benne_Ouverture
+    4300006: Benne_Chaine_Droite
+    4300008: Benne_Chaine_Gauche
+    4300010: ConcreteSkip
+    4300012: ConcreteSkip_Handle
+    4300014: ConcreteSkip_Opening
+    4300016: ConcreteSkip_Right_Chain
+    4300018: ConcreteSkip_Left_Chain
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

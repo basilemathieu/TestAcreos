@@ -1,0 +1,1745 @@
+fileFormatVersion: 2
+guid: d0439122f1c668549883e38eacb57ff0
+timeCreated: 1532348709
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 85ECB_SM_CABINE_FENETRES
+    100002: 85ECB_SM_SEAT
+    100004: Apex
+    100006: Base
+    100008: Base_Selector
+    100010: Cabin
+    100012: Counterjib
+    100014: Cylinder
+    100016: Cylinder 1
+    100018: Cylinder 10
+    100020: Cylinder 11
+    100022: Cylinder 12
+    100024: Cylinder 13
+    100026: Cylinder 14
+    100028: Cylinder 15
+    100030: Cylinder 16
+    100032: Cylinder 17
+    100034: Cylinder 18
+    100036: Cylinder 19
+    100038: Cylinder 2
+    100040: Cylinder 20
+    100042: Cylinder 21
+    100044: Cylinder 22
+    100046: Cylinder 23
+    100048: Cylinder 24
+    100050: Cylinder 25
+    100052: Cylinder 26
+    100054: Cylinder 27
+    100056: Cylinder 28
+    100058: Cylinder 29
+    100060: Cylinder 3
+    100062: Cylinder 30
+    100064: Cylinder 31
+    100066: Cylinder 32
+    100068: Cylinder 33
+    100070: Cylinder 34
+    100072: Cylinder 35
+    100074: Cylinder 36
+    100076: Cylinder 37
+    100078: Cylinder 38
+    100080: Cylinder 39
+    100082: Cylinder 4
+    100084: Cylinder 40
+    100086: Cylinder 41
+    100088: Cylinder 42
+    100090: Cylinder 43
+    100092: Cylinder 44
+    100094: Cylinder 45
+    100096: Cylinder 46
+    100098: Cylinder 47
+    100100: Cylinder 48
+    100102: Cylinder 49
+    100104: Cylinder 5
+    100106: Cylinder 50
+    100108: Cylinder 51
+    100110: Cylinder 52
+    100112: Cylinder 53
+    100114: Cylinder 54
+    100116: Cylinder 55
+    100118: Cylinder 56
+    100120: Cylinder 57
+    100122: Cylinder 58
+    100124: Cylinder 59
+    100126: Cylinder 6
+    100128: Cylinder 60
+    100130: Cylinder 61
+    100132: Cylinder 62
+    100134: Cylinder 63
+    100136: Cylinder 64
+    100138: Cylinder 65
+    100140: Cylinder 66
+    100142: Cylinder 67
+    100144: Cylinder 68
+    100146: Cylinder 69
+    100148: Cylinder 7
+    100150: Cylinder 70
+    100152: Cylinder 71
+    100154: Cylinder 8
+    100156: Cylinder 9
+    100158: Cylinder(Clone)_cell_0
+    100160: Cylinder(Clone)_cell_0 1
+    100162: Cylinder(Clone)_cell_0 2
+    100164: Cylinder(Clone)_cell_0 3
+    100166: Cylinder(Clone)_cell_1
+    100168: Cylinder(Clone)_cell_1 1
+    100170: Cylinder(Clone)_cell_1 2
+    100172: Cylinder(Clone)_cell_1 3
+    100174: Cylinder(Clone)_cell_2
+    100176: Cylinder(Clone)_cell_2 1
+    100178: Cylinder(Clone)_cell_2 2
+    100180: Cylinder(Clone)_cell_2 3
+    100182: Cylinder(Clone)_spanU_0
+    100184: Cylinder(Clone)_spanU_0 1
+    100186: Cylinder(Clone)_spanU_0 2
+    100188: Cylinder(Clone)_spanU_1
+    100190: Cylinder(Clone)_spanU_1 1
+    100192: Cylinder(Clone)_spanU_1 2
+    100194: Cylinder(Clone)_spanU_2
+    100196: Cylinder(Clone)_spanU_2 1
+    100198: Cylinder(Clone)_spanU_2 2
+    100200: Cylinder(Clone)_spanU_3
+    100202: Cylinder(Clone)_spanU_3 1
+    100204: Cylinder(Clone)_spanU_3 2
+    100206: Cylinder(Clone)_spanU_4
+    100208: Cylinder(Clone)_spanU_4 1
+    100210: Cylinder(Clone)_spanU_4 2
+    100212: Cylinder(Clone)_spanU_5
+    100214: Cylinder(Clone)_spanU_5 1
+    100216: Cylinder(Clone)_spanU_5 2
+    100218: Extrude_108(Clone)_cell_0
+    100220: Extrude_108(Clone)_cell_0 1
+    100222: Extrude_141(Clone)_node_0
+    100224: Extrude_141(Clone)_node_1
+    100226: Extrude_141(Clone)_node_2
+    100228: Extrude_141(Clone)_node_3
+    100230: Extrude_141(Clone)_node_4
+    100232: Extrude_141(Clone)_node_5
+    100234: Extrude_151
+    100236: Extrude_151 1
+    100238: Extrude_151 2
+    100240: Extrude_153
+    100242: Extrude_153 1
+    100244: Extrude_153 2
+    100246: Extrude_175(Clone)_cell_0
+    100248: Extrude_175(Clone)_cell_0 1
+    100250: Extrude_175(Clone)_cell_0 2
+    100252: Extrude_175(Clone)_cell_0 3
+    100254: Extrude_175(Clone)_cell_0 4
+    100256: Extrude_175(Clone)_cell_1
+    100258: Extrude_175(Clone)_cell_1 1
+    100260: Extrude_175(Clone)_cell_1 2
+    100262: Extrude_175(Clone)_cell_1 3
+    100264: Extrude_175(Clone)_cell_1 4
+    100266: Extrude_175(Clone)_cell_2
+    100268: Extrude_175(Clone)_cell_3
+    100270: Extrude_327
+    100272: Extrude_327 1
+    100274: Extrude_327 2
+    100276: Extrude_327 3
+    100278: Extrude_331
+    100280: Extrude_331 1
+    100282: Extrude_331 2
+    100284: Extrude_331 3
+    100286: Extrude_99(Clone)_cell_0
+    100288: Extrude_99(Clone)_cell_0 1
+    100290: FixedBase
+    100292: Fleche_Portion(Clone)_node_0
+    100294: Fleche_Portion(Clone)_node_1
+    100296: Fleche_Portion(Clone)_node_2
+    100298: FlecheMontantBas(Clone)_node_left
+    100300: FlecheMontantBas(Clone)_node_left 1
+    100302: FlecheMontantBas(Clone)_node_left 2
+    100304: FlecheMontantBas(Clone)_node_right
+    100306: FlecheMontantBas(Clone)_node_right 1
+    100308: FlecheMontantBas(Clone)_node_right 2
+    100310: FlecheMontantHaut
+    100312: FlecheMontantHaut 1
+    100314: FlecheMontantHaut 2
+    100316: FlecheMontantInterieur(Clone)_node_0
+    100318: FlecheMontantInterieur(Clone)_node_0 1
+    100320: FlecheMontantInterieur(Clone)_node_0 2
+    100322: FlecheMontantInterieur(Clone)_node_1
+    100324: FlecheMontantInterieur(Clone)_node_1 1
+    100326: FlecheMontantInterieur(Clone)_node_1 2
+    100328: FlecheMontantInterieur(Clone)_node_2
+    100330: FlecheMontantInterieur(Clone)_node_2 1
+    100332: FlecheMontantInterieur(Clone)_node_2 2
+    100334: FlecheMontantInterieur(Clone)_node_3
+    100336: FlecheMontantInterieur(Clone)_node_3 1
+    100338: FlecheMontantInterieur(Clone)_node_3 2
+    100340: FlecheMontantInterieur(Clone)_node_4
+    100342: FlecheMontantInterieur(Clone)_node_4 1
+    100344: FlecheMontantInterieur(Clone)_node_4 2
+    100346: FlecheMontantInterieur(Clone)_node_5
+    100348: FlecheMontantInterieur(Clone)_node_5 1
+    100350: FlecheMontantInterieur(Clone)_node_5 2
+    100352: FlecheMontantInterieur(Clone)_node_6
+    100354: FlecheMontantInterieur(Clone)_node_6 1
+    100356: FlecheMontantInterieur(Clone)_node_6 2
+    100358: Grouper_102(Clone)_node_left
+    100360: Grouper_102(Clone)_node_right
+    100362: Grouper_109(Clone)_node_left
+    100364: Grouper_109(Clone)_node_right
+    100366: Grouper_110
+    100368: Grouper_110 1
+    100370: Grouper_110 2
+    100372: Grouper_126(Clone)_node_0
+    100374: Grouper_126(Clone)_node_0 1
+    100376: Grouper_126(Clone)_node_0 2
+    100378: Grouper_126(Clone)_node_0 3
+    100380: Grouper_126(Clone)_node_0 4
+    100382: Grouper_126(Clone)_node_0 5
+    100384: Grouper_126(Clone)_node_1
+    100386: Grouper_126(Clone)_node_1 1
+    100388: Grouper_126(Clone)_node_1 2
+    100390: Grouper_126(Clone)_node_1 3
+    100392: Grouper_126(Clone)_node_1 4
+    100394: Grouper_126(Clone)_node_1 5
+    100396: Grouper_126(Clone)_node_2
+    100398: Grouper_126(Clone)_node_2 1
+    100400: Grouper_126(Clone)_node_2 2
+    100402: Grouper_126(Clone)_node_2 3
+    100404: Grouper_126(Clone)_node_2 4
+    100406: Grouper_126(Clone)_node_2 5
+    100408: Grouper_126(Clone)_node_3
+    100410: Grouper_126(Clone)_node_3 1
+    100412: Grouper_126(Clone)_node_3 2
+    100414: Grouper_126(Clone)_node_3 3
+    100416: Grouper_126(Clone)_node_3 4
+    100418: Grouper_126(Clone)_node_3 5
+    100420: Grouper_126(Clone)_node_4
+    100422: Grouper_126(Clone)_node_4 1
+    100424: Grouper_126(Clone)_node_4 2
+    100426: Grouper_126(Clone)_node_4 3
+    100428: Grouper_126(Clone)_node_4 4
+    100430: Grouper_126(Clone)_node_4 5
+    100432: Grouper_126(Clone)_node_5
+    100434: Grouper_126(Clone)_node_5 1
+    100436: Grouper_126(Clone)_node_5 2
+    100438: Grouper_126(Clone)_node_5 3
+    100440: Grouper_126(Clone)_node_5 4
+    100442: Grouper_126(Clone)_node_5 5
+    100444: Grouper_155(Clone)_node_0
+    100446: Grouper_155(Clone)_node_1
+    100448: Grouper_155(Clone)_node_2
+    100450: Grouper_166(Clone)_node_left
+    100452: Grouper_166(Clone)_node_right
+    100454: Grouper_174
+    100456: Grouper_174 1
+    100458: Grouper_174 2
+    100460: Grouper_174 3
+    100462: Grouper_174 4
+    100464: Grouper_175
+    100466: Grouper_175 1
+    100468: Grouper_175 2
+    100470: Grouper_175 3
+    100472: Grouper_175 4
+    100474: Grouper_176
+    100476: Grouper_176(Clone)_node_left
+    100478: Grouper_176(Clone)_node_left 1
+    100480: Grouper_176(Clone)_node_right
+    100482: Grouper_176(Clone)_node_right 1
+    100484: Grouper_195(Clone)_node_left
+    100486: Grouper_195(Clone)_node_right
+    100488: Grouper_204
+    100490: Grouper_330(Clone)_corner_0_0
+    100492: Grouper_330(Clone)_corner_0_1
+    100494: Grouper_330(Clone)_corner_0_2
+    100496: Grouper_330(Clone)_corner_0_3
+    100498: GT_Parametric_Contrepoids(Clone)
+    100500: GT_Parametric_Fleche(Clone)
+    100502: GT_Parametric_Fleche_Attache(Clone)
+    100504: GT_Parametric_Fleche_Attache(Clone) 1
+    100506: GT_Parametric_Fleche_Attache(Clone) 2
+    100508: GT_Parametric_Fleche_Deco(Clone)
+    100510: GT_Parametric_Fleche_Deco(Clone) 1
+    100512: GT_Parametric_Fleche_Deco(Clone) 2
+    100514: GT_Parametric_Hauban_Bas(Clone)
+    100516: GT_Parametric_Hauban_Bas(Clone) 1
+    100518: GT_Parametric_Hauban_Bas(Clone) 2
+    100520: GT_Parametric_Hauban_Bas(Clone) 3
+    100522: GT_Parametric_Hauban_Bas(Clone) 4
+    100524: GT_Parametric_Hauban_Haut(Clone)
+    100526: GT_Parametric_Hauban_Haut(Clone) 1
+    100528: GT_Parametric_Hauban_Haut(Clone) 2
+    100530: GT_Parametric_Hauban_Haut(Clone) 3
+    100532: GT_Parametric_Hauban_Haut(Clone) 4
+    100534: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    100536: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 1
+    100538: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 2
+    100540: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 3
+    100542: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 4
+    100544: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_2
+    100546: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_3
+    100548: GT_Parametric_Panneau(Clone)
+    100550: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    100552: GT_Parametric_Piquet(Clone)(Clone)_node_0 1
+    100554: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    100556: GT_Parametric_Piquet(Clone)(Clone)_node_1 1
+    100558: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    100560: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0 1
+    100562: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    100564: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1 1
+    100566: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    100568: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10 1
+    100570: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    100572: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11 1
+    100574: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    100576: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2 1
+    100578: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    100580: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3 1
+    100582: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    100584: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4 1
+    100586: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    100588: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5 1
+    100590: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    100592: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6 1
+    100594: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    100596: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7 1
+    100598: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    100600: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8 1
+    100602: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    100604: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9 1
+    100606: GT_Parametric_PorteFleche_Top(Clone)
+    100608: //RootNode
+    100610: Haubans_Ar
+    100612: Haubans_Av
+    100614: Hook
+    100616: Hook(Clone)
+    100618: item_1_PaintedMetal_Custom Tower
+    100620: item_1_PaintedMetal_Custom Tower 1
+    100622: item_1_PaintedMetal_Custom Tower 2
+    100624: item_1_PaintedMetal_Custom Tower 3
+    100626: item_1_PaintedMetal_Custom Tower 4
+    100628: item_1_PaintedMetal_Custom Tower 5
+    100630: item_1_PaintedMetal_Custom Tower 6
+    100632: item_2_MetalGalvanized_Plate
+    100634: item_2_MetalGalvanized_Plate 1
+    100636: item_2_MetalGalvanized_Plate 2
+    100638: item_2_MetalGalvanized_Plate 3
+    100640: item_2_MetalGalvanized_Plate 4
+    100642: item_2_MetalGalvanized_Plate 5
+    100644: item_2_MetalGalvanized_Plate 6
+    100646: item_3_MetalGalvanized
+    100648: item_3_MetalGalvanized 1
+    100650: item_3_MetalGalvanized 2
+    100652: item_3_MetalGalvanized 3
+    100654: item_3_MetalGalvanized 4
+    100656: item_3_MetalGalvanized 5
+    100658: item_3_MetalGalvanized 6
+    100660: item_4_MetalClean
+    100662: item_4_MetalClean 1
+    100664: item_4_MetalClean 2
+    100666: item_4_MetalClean 3
+    100668: item_4_MetalClean 4
+    100670: item_4_MetalClean 5
+    100672: item_4_MetalClean 6
+    100674: Jib
+    100676: Jib 1
+    100678: Junction
+    100680: LinearRepeater_101
+    100682: LinearRepeater_101 1
+    100684: LinearRepeater_105
+    100686: LinearRepeater_105 1
+    100688: LinearRepeater_107
+    100690: LinearRepeater_107 1
+    100692: LinearRepeater_107 2
+    100694: LinearRepeater_113
+    100696: LinearRepeater_113 1
+    100698: LinearRepeater_113 2
+    100700: LinearRepeater_118(Clone)_node_left
+    100702: LinearRepeater_118(Clone)_node_left 1
+    100704: LinearRepeater_118(Clone)_node_left 2
+    100706: LinearRepeater_118(Clone)_node_right
+    100708: LinearRepeater_118(Clone)_node_right 1
+    100710: LinearRepeater_118(Clone)_node_right 2
+    100712: LinearRepeater_142
+    100714: LinearRepeater_147
+    100716: LinearRepeater_156
+    100718: LinearRepeater_159
+    100720: LinearRepeater_159 1
+    100722: LinearRepeater_163(Clone)_node_left
+    100724: LinearRepeater_163(Clone)_node_left 1
+    100726: LinearRepeater_163(Clone)_node_right
+    100728: LinearRepeater_163(Clone)_node_right 1
+    100730: LinearRepeater_179
+    100732: LinearRepeater_179 1
+    100734: LinearRepeater_179 2
+    100736: LinearRepeater_179 3
+    100738: LinearRepeater_179 4
+    100740: LinearRepeater_181
+    100742: LinearRepeater_181 1
+    100744: LinearRepeater_181 2
+    100746: LinearRepeater_181 3
+    100748: LinearRepeater_181 4
+    100750: LinearRepeater_99
+    100752: LinearRepeater_99 1
+    100754: PairRepeater_101
+    100756: PairRepeater_101 1
+    100758: PairRepeater_101 2
+    100760: PairRepeater_103
+    100762: PairRepeater_110
+    100764: PairRepeater_120
+    100766: PairRepeater_120 1
+    100768: PairRepeater_120 2
+    100770: PairRepeater_165
+    100772: PairRepeater_165 1
+    100774: PairRepeater_167
+    100776: PairRepeater_177
+    100778: PairRepeater_177 1
+    100780: PairRepeater_191
+    100782: PlanRepeater_328
+    100784: PlanRepeater_328_0
+    100786: PlanSweep_133
+    100788: PlanSweep_146(Clone)_cell_0
+    100790: PlanSweep_146(Clone)_cell_1
+    100792: PlanSweep_146(Clone)_cell_2
+    100794: PlanSweep_146(Clone)_cell_3
+    100796: PlanSweep_146(Clone)_cell_4
+    100798: PlanSweep_146(Clone)_cell_5
+    100800: PlanSweep_189
+    100802: PlanSweep_189 1
+    100804: PlanSweep_189 2
+    100806: PlanSweep_189 3
+    100808: PlanSweep_322
+    100810: PlanSweep_322 1
+    100812: Tower
+    100814: Tower_Base
+    100816: Tower_Base 1
+    100818: Tower_Link_Middle
+    100820: Tower_Section_Base(Clone)_node_0
+    100822: Tower_Section_Base(Clone)_node_0 1
+    100824: Tower_Section_Base(Clone)_node_1
+    100826: Tower_Section_Base(Clone)_node_1 1
+    100828: Tower_Section_Base(Clone)_node_2
+    100830: Tower_Section_Base(Clone)_node_3
+    100832: Tower_Section_Base(Clone)_node_4
+    100834: Tower_Top
+    100836: Tower_Top 1
+    100838: TowerCrane
+    100840: Trolley
+    100842: Trolley(Clone)
+    100844: Troncons
+    100846: Turntable
+    100848: Turntable(Clone)
+    100850: Turntable_Axis(Clone)
+    400000: 85ECB_SM_CABINE_FENETRES
+    400002: 85ECB_SM_SEAT
+    400004: Apex
+    400006: Base
+    400008: Base_Selector
+    400010: Cabin
+    400012: Counterjib
+    400014: Cylinder
+    400016: Cylinder 1
+    400018: Cylinder 10
+    400020: Cylinder 11
+    400022: Cylinder 12
+    400024: Cylinder 13
+    400026: Cylinder 14
+    400028: Cylinder 15
+    400030: Cylinder 16
+    400032: Cylinder 17
+    400034: Cylinder 18
+    400036: Cylinder 19
+    400038: Cylinder 2
+    400040: Cylinder 20
+    400042: Cylinder 21
+    400044: Cylinder 22
+    400046: Cylinder 23
+    400048: Cylinder 24
+    400050: Cylinder 25
+    400052: Cylinder 26
+    400054: Cylinder 27
+    400056: Cylinder 28
+    400058: Cylinder 29
+    400060: Cylinder 3
+    400062: Cylinder 30
+    400064: Cylinder 31
+    400066: Cylinder 32
+    400068: Cylinder 33
+    400070: Cylinder 34
+    400072: Cylinder 35
+    400074: Cylinder 36
+    400076: Cylinder 37
+    400078: Cylinder 38
+    400080: Cylinder 39
+    400082: Cylinder 4
+    400084: Cylinder 40
+    400086: Cylinder 41
+    400088: Cylinder 42
+    400090: Cylinder 43
+    400092: Cylinder 44
+    400094: Cylinder 45
+    400096: Cylinder 46
+    400098: Cylinder 47
+    400100: Cylinder 48
+    400102: Cylinder 49
+    400104: Cylinder 5
+    400106: Cylinder 50
+    400108: Cylinder 51
+    400110: Cylinder 52
+    400112: Cylinder 53
+    400114: Cylinder 54
+    400116: Cylinder 55
+    400118: Cylinder 56
+    400120: Cylinder 57
+    400122: Cylinder 58
+    400124: Cylinder 59
+    400126: Cylinder 6
+    400128: Cylinder 60
+    400130: Cylinder 61
+    400132: Cylinder 62
+    400134: Cylinder 63
+    400136: Cylinder 64
+    400138: Cylinder 65
+    400140: Cylinder 66
+    400142: Cylinder 67
+    400144: Cylinder 68
+    400146: Cylinder 69
+    400148: Cylinder 7
+    400150: Cylinder 70
+    400152: Cylinder 71
+    400154: Cylinder 8
+    400156: Cylinder 9
+    400158: Cylinder(Clone)_cell_0
+    400160: Cylinder(Clone)_cell_0 1
+    400162: Cylinder(Clone)_cell_0 2
+    400164: Cylinder(Clone)_cell_0 3
+    400166: Cylinder(Clone)_cell_1
+    400168: Cylinder(Clone)_cell_1 1
+    400170: Cylinder(Clone)_cell_1 2
+    400172: Cylinder(Clone)_cell_1 3
+    400174: Cylinder(Clone)_cell_2
+    400176: Cylinder(Clone)_cell_2 1
+    400178: Cylinder(Clone)_cell_2 2
+    400180: Cylinder(Clone)_cell_2 3
+    400182: Cylinder(Clone)_spanU_0
+    400184: Cylinder(Clone)_spanU_0 1
+    400186: Cylinder(Clone)_spanU_0 2
+    400188: Cylinder(Clone)_spanU_1
+    400190: Cylinder(Clone)_spanU_1 1
+    400192: Cylinder(Clone)_spanU_1 2
+    400194: Cylinder(Clone)_spanU_2
+    400196: Cylinder(Clone)_spanU_2 1
+    400198: Cylinder(Clone)_spanU_2 2
+    400200: Cylinder(Clone)_spanU_3
+    400202: Cylinder(Clone)_spanU_3 1
+    400204: Cylinder(Clone)_spanU_3 2
+    400206: Cylinder(Clone)_spanU_4
+    400208: Cylinder(Clone)_spanU_4 1
+    400210: Cylinder(Clone)_spanU_4 2
+    400212: Cylinder(Clone)_spanU_5
+    400214: Cylinder(Clone)_spanU_5 1
+    400216: Cylinder(Clone)_spanU_5 2
+    400218: Extrude_108(Clone)_cell_0
+    400220: Extrude_108(Clone)_cell_0 1
+    400222: Extrude_141(Clone)_node_0
+    400224: Extrude_141(Clone)_node_1
+    400226: Extrude_141(Clone)_node_2
+    400228: Extrude_141(Clone)_node_3
+    400230: Extrude_141(Clone)_node_4
+    400232: Extrude_141(Clone)_node_5
+    400234: Extrude_151
+    400236: Extrude_151 1
+    400238: Extrude_151 2
+    400240: Extrude_153
+    400242: Extrude_153 1
+    400244: Extrude_153 2
+    400246: Extrude_175(Clone)_cell_0
+    400248: Extrude_175(Clone)_cell_0 1
+    400250: Extrude_175(Clone)_cell_0 2
+    400252: Extrude_175(Clone)_cell_0 3
+    400254: Extrude_175(Clone)_cell_0 4
+    400256: Extrude_175(Clone)_cell_1
+    400258: Extrude_175(Clone)_cell_1 1
+    400260: Extrude_175(Clone)_cell_1 2
+    400262: Extrude_175(Clone)_cell_1 3
+    400264: Extrude_175(Clone)_cell_1 4
+    400266: Extrude_175(Clone)_cell_2
+    400268: Extrude_175(Clone)_cell_3
+    400270: Extrude_327
+    400272: Extrude_327 1
+    400274: Extrude_327 2
+    400276: Extrude_327 3
+    400278: Extrude_331
+    400280: Extrude_331 1
+    400282: Extrude_331 2
+    400284: Extrude_331 3
+    400286: Extrude_99(Clone)_cell_0
+    400288: Extrude_99(Clone)_cell_0 1
+    400290: FixedBase
+    400292: Fleche_Portion(Clone)_node_0
+    400294: Fleche_Portion(Clone)_node_1
+    400296: Fleche_Portion(Clone)_node_2
+    400298: FlecheMontantBas(Clone)_node_left
+    400300: FlecheMontantBas(Clone)_node_left 1
+    400302: FlecheMontantBas(Clone)_node_left 2
+    400304: FlecheMontantBas(Clone)_node_right
+    400306: FlecheMontantBas(Clone)_node_right 1
+    400308: FlecheMontantBas(Clone)_node_right 2
+    400310: FlecheMontantHaut
+    400312: FlecheMontantHaut 1
+    400314: FlecheMontantHaut 2
+    400316: FlecheMontantInterieur(Clone)_node_0
+    400318: FlecheMontantInterieur(Clone)_node_0 1
+    400320: FlecheMontantInterieur(Clone)_node_0 2
+    400322: FlecheMontantInterieur(Clone)_node_1
+    400324: FlecheMontantInterieur(Clone)_node_1 1
+    400326: FlecheMontantInterieur(Clone)_node_1 2
+    400328: FlecheMontantInterieur(Clone)_node_2
+    400330: FlecheMontantInterieur(Clone)_node_2 1
+    400332: FlecheMontantInterieur(Clone)_node_2 2
+    400334: FlecheMontantInterieur(Clone)_node_3
+    400336: FlecheMontantInterieur(Clone)_node_3 1
+    400338: FlecheMontantInterieur(Clone)_node_3 2
+    400340: FlecheMontantInterieur(Clone)_node_4
+    400342: FlecheMontantInterieur(Clone)_node_4 1
+    400344: FlecheMontantInterieur(Clone)_node_4 2
+    400346: FlecheMontantInterieur(Clone)_node_5
+    400348: FlecheMontantInterieur(Clone)_node_5 1
+    400350: FlecheMontantInterieur(Clone)_node_5 2
+    400352: FlecheMontantInterieur(Clone)_node_6
+    400354: FlecheMontantInterieur(Clone)_node_6 1
+    400356: FlecheMontantInterieur(Clone)_node_6 2
+    400358: Grouper_102(Clone)_node_left
+    400360: Grouper_102(Clone)_node_right
+    400362: Grouper_109(Clone)_node_left
+    400364: Grouper_109(Clone)_node_right
+    400366: Grouper_110
+    400368: Grouper_110 1
+    400370: Grouper_110 2
+    400372: Grouper_126(Clone)_node_0
+    400374: Grouper_126(Clone)_node_0 1
+    400376: Grouper_126(Clone)_node_0 2
+    400378: Grouper_126(Clone)_node_0 3
+    400380: Grouper_126(Clone)_node_0 4
+    400382: Grouper_126(Clone)_node_0 5
+    400384: Grouper_126(Clone)_node_1
+    400386: Grouper_126(Clone)_node_1 1
+    400388: Grouper_126(Clone)_node_1 2
+    400390: Grouper_126(Clone)_node_1 3
+    400392: Grouper_126(Clone)_node_1 4
+    400394: Grouper_126(Clone)_node_1 5
+    400396: Grouper_126(Clone)_node_2
+    400398: Grouper_126(Clone)_node_2 1
+    400400: Grouper_126(Clone)_node_2 2
+    400402: Grouper_126(Clone)_node_2 3
+    400404: Grouper_126(Clone)_node_2 4
+    400406: Grouper_126(Clone)_node_2 5
+    400408: Grouper_126(Clone)_node_3
+    400410: Grouper_126(Clone)_node_3 1
+    400412: Grouper_126(Clone)_node_3 2
+    400414: Grouper_126(Clone)_node_3 3
+    400416: Grouper_126(Clone)_node_3 4
+    400418: Grouper_126(Clone)_node_3 5
+    400420: Grouper_126(Clone)_node_4
+    400422: Grouper_126(Clone)_node_4 1
+    400424: Grouper_126(Clone)_node_4 2
+    400426: Grouper_126(Clone)_node_4 3
+    400428: Grouper_126(Clone)_node_4 4
+    400430: Grouper_126(Clone)_node_4 5
+    400432: Grouper_126(Clone)_node_5
+    400434: Grouper_126(Clone)_node_5 1
+    400436: Grouper_126(Clone)_node_5 2
+    400438: Grouper_126(Clone)_node_5 3
+    400440: Grouper_126(Clone)_node_5 4
+    400442: Grouper_126(Clone)_node_5 5
+    400444: Grouper_155(Clone)_node_0
+    400446: Grouper_155(Clone)_node_1
+    400448: Grouper_155(Clone)_node_2
+    400450: Grouper_166(Clone)_node_left
+    400452: Grouper_166(Clone)_node_right
+    400454: Grouper_174
+    400456: Grouper_174 1
+    400458: Grouper_174 2
+    400460: Grouper_174 3
+    400462: Grouper_174 4
+    400464: Grouper_175
+    400466: Grouper_175 1
+    400468: Grouper_175 2
+    400470: Grouper_175 3
+    400472: Grouper_175 4
+    400474: Grouper_176
+    400476: Grouper_176(Clone)_node_left
+    400478: Grouper_176(Clone)_node_left 1
+    400480: Grouper_176(Clone)_node_right
+    400482: Grouper_176(Clone)_node_right 1
+    400484: Grouper_195(Clone)_node_left
+    400486: Grouper_195(Clone)_node_right
+    400488: Grouper_204
+    400490: Grouper_330(Clone)_corner_0_0
+    400492: Grouper_330(Clone)_corner_0_1
+    400494: Grouper_330(Clone)_corner_0_2
+    400496: Grouper_330(Clone)_corner_0_3
+    400498: GT_Parametric_Contrepoids(Clone)
+    400500: GT_Parametric_Fleche(Clone)
+    400502: GT_Parametric_Fleche_Attache(Clone)
+    400504: GT_Parametric_Fleche_Attache(Clone) 1
+    400506: GT_Parametric_Fleche_Attache(Clone) 2
+    400508: GT_Parametric_Fleche_Deco(Clone)
+    400510: GT_Parametric_Fleche_Deco(Clone) 1
+    400512: GT_Parametric_Fleche_Deco(Clone) 2
+    400514: GT_Parametric_Hauban_Bas(Clone)
+    400516: GT_Parametric_Hauban_Bas(Clone) 1
+    400518: GT_Parametric_Hauban_Bas(Clone) 2
+    400520: GT_Parametric_Hauban_Bas(Clone) 3
+    400522: GT_Parametric_Hauban_Bas(Clone) 4
+    400524: GT_Parametric_Hauban_Haut(Clone)
+    400526: GT_Parametric_Hauban_Haut(Clone) 1
+    400528: GT_Parametric_Hauban_Haut(Clone) 2
+    400530: GT_Parametric_Hauban_Haut(Clone) 3
+    400532: GT_Parametric_Hauban_Haut(Clone) 4
+    400534: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    400536: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 1
+    400538: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 2
+    400540: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 3
+    400542: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 4
+    400544: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_2
+    400546: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_3
+    400548: GT_Parametric_Panneau(Clone)
+    400550: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    400552: GT_Parametric_Piquet(Clone)(Clone)_node_0 1
+    400554: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    400556: GT_Parametric_Piquet(Clone)(Clone)_node_1 1
+    400558: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    400560: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0 1
+    400562: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    400564: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1 1
+    400566: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    400568: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10 1
+    400570: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    400572: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11 1
+    400574: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    400576: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2 1
+    400578: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    400580: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3 1
+    400582: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    400584: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4 1
+    400586: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    400588: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5 1
+    400590: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    400592: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6 1
+    400594: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    400596: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7 1
+    400598: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    400600: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8 1
+    400602: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    400604: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9 1
+    400606: GT_Parametric_PorteFleche_Top(Clone)
+    400608: //RootNode
+    400610: Haubans_Ar
+    400612: Haubans_Av
+    400614: Hook
+    400616: Hook(Clone)
+    400618: item_1_PaintedMetal_Custom Tower
+    400620: item_1_PaintedMetal_Custom Tower 1
+    400622: item_1_PaintedMetal_Custom Tower 2
+    400624: item_1_PaintedMetal_Custom Tower 3
+    400626: item_1_PaintedMetal_Custom Tower 4
+    400628: item_1_PaintedMetal_Custom Tower 5
+    400630: item_1_PaintedMetal_Custom Tower 6
+    400632: item_2_MetalGalvanized_Plate
+    400634: item_2_MetalGalvanized_Plate 1
+    400636: item_2_MetalGalvanized_Plate 2
+    400638: item_2_MetalGalvanized_Plate 3
+    400640: item_2_MetalGalvanized_Plate 4
+    400642: item_2_MetalGalvanized_Plate 5
+    400644: item_2_MetalGalvanized_Plate 6
+    400646: item_3_MetalGalvanized
+    400648: item_3_MetalGalvanized 1
+    400650: item_3_MetalGalvanized 2
+    400652: item_3_MetalGalvanized 3
+    400654: item_3_MetalGalvanized 4
+    400656: item_3_MetalGalvanized 5
+    400658: item_3_MetalGalvanized 6
+    400660: item_4_MetalClean
+    400662: item_4_MetalClean 1
+    400664: item_4_MetalClean 2
+    400666: item_4_MetalClean 3
+    400668: item_4_MetalClean 4
+    400670: item_4_MetalClean 5
+    400672: item_4_MetalClean 6
+    400674: Jib
+    400676: Jib 1
+    400678: Junction
+    400680: LinearRepeater_101
+    400682: LinearRepeater_101 1
+    400684: LinearRepeater_105
+    400686: LinearRepeater_105 1
+    400688: LinearRepeater_107
+    400690: LinearRepeater_107 1
+    400692: LinearRepeater_107 2
+    400694: LinearRepeater_113
+    400696: LinearRepeater_113 1
+    400698: LinearRepeater_113 2
+    400700: LinearRepeater_118(Clone)_node_left
+    400702: LinearRepeater_118(Clone)_node_left 1
+    400704: LinearRepeater_118(Clone)_node_left 2
+    400706: LinearRepeater_118(Clone)_node_right
+    400708: LinearRepeater_118(Clone)_node_right 1
+    400710: LinearRepeater_118(Clone)_node_right 2
+    400712: LinearRepeater_142
+    400714: LinearRepeater_147
+    400716: LinearRepeater_156
+    400718: LinearRepeater_159
+    400720: LinearRepeater_159 1
+    400722: LinearRepeater_163(Clone)_node_left
+    400724: LinearRepeater_163(Clone)_node_left 1
+    400726: LinearRepeater_163(Clone)_node_right
+    400728: LinearRepeater_163(Clone)_node_right 1
+    400730: LinearRepeater_179
+    400732: LinearRepeater_179 1
+    400734: LinearRepeater_179 2
+    400736: LinearRepeater_179 3
+    400738: LinearRepeater_179 4
+    400740: LinearRepeater_181
+    400742: LinearRepeater_181 1
+    400744: LinearRepeater_181 2
+    400746: LinearRepeater_181 3
+    400748: LinearRepeater_181 4
+    400750: LinearRepeater_99
+    400752: LinearRepeater_99 1
+    400754: PairRepeater_101
+    400756: PairRepeater_101 1
+    400758: PairRepeater_101 2
+    400760: PairRepeater_103
+    400762: PairRepeater_110
+    400764: PairRepeater_120
+    400766: PairRepeater_120 1
+    400768: PairRepeater_120 2
+    400770: PairRepeater_165
+    400772: PairRepeater_165 1
+    400774: PairRepeater_167
+    400776: PairRepeater_177
+    400778: PairRepeater_177 1
+    400780: PairRepeater_191
+    400782: PlanRepeater_328
+    400784: PlanRepeater_328_0
+    400786: PlanSweep_133
+    400788: PlanSweep_146(Clone)_cell_0
+    400790: PlanSweep_146(Clone)_cell_1
+    400792: PlanSweep_146(Clone)_cell_2
+    400794: PlanSweep_146(Clone)_cell_3
+    400796: PlanSweep_146(Clone)_cell_4
+    400798: PlanSweep_146(Clone)_cell_5
+    400800: PlanSweep_189
+    400802: PlanSweep_189 1
+    400804: PlanSweep_189 2
+    400806: PlanSweep_189 3
+    400808: PlanSweep_322
+    400810: PlanSweep_322 1
+    400812: Tower
+    400814: Tower_Base
+    400816: Tower_Base 1
+    400818: Tower_Link_Middle
+    400820: Tower_Section_Base(Clone)_node_0
+    400822: Tower_Section_Base(Clone)_node_0 1
+    400824: Tower_Section_Base(Clone)_node_1
+    400826: Tower_Section_Base(Clone)_node_1 1
+    400828: Tower_Section_Base(Clone)_node_2
+    400830: Tower_Section_Base(Clone)_node_3
+    400832: Tower_Section_Base(Clone)_node_4
+    400834: Tower_Top
+    400836: Tower_Top 1
+    400838: TowerCrane
+    400840: Trolley
+    400842: Trolley(Clone)
+    400844: Troncons
+    400846: Turntable
+    400848: Turntable(Clone)
+    400850: Turntable_Axis(Clone)
+    2300000: 85ECB_SM_CABINE_FENETRES
+    2300002: 85ECB_SM_SEAT
+    2300004: Base
+    2300006: Cabin
+    2300008: Cylinder
+    2300010: Cylinder 1
+    2300012: Cylinder 10
+    2300014: Cylinder 11
+    2300016: Cylinder 12
+    2300018: Cylinder 13
+    2300020: Cylinder 14
+    2300022: Cylinder 15
+    2300024: Cylinder 16
+    2300026: Cylinder 17
+    2300028: Cylinder 18
+    2300030: Cylinder 19
+    2300032: Cylinder 2
+    2300034: Cylinder 20
+    2300036: Cylinder 21
+    2300038: Cylinder 22
+    2300040: Cylinder 23
+    2300042: Cylinder 24
+    2300044: Cylinder 25
+    2300046: Cylinder 26
+    2300048: Cylinder 27
+    2300050: Cylinder 28
+    2300052: Cylinder 29
+    2300054: Cylinder 3
+    2300056: Cylinder 30
+    2300058: Cylinder 31
+    2300060: Cylinder 32
+    2300062: Cylinder 33
+    2300064: Cylinder 34
+    2300066: Cylinder 35
+    2300068: Cylinder 36
+    2300070: Cylinder 37
+    2300072: Cylinder 38
+    2300074: Cylinder 39
+    2300076: Cylinder 4
+    2300078: Cylinder 40
+    2300080: Cylinder 41
+    2300082: Cylinder 42
+    2300084: Cylinder 43
+    2300086: Cylinder 44
+    2300088: Cylinder 45
+    2300090: Cylinder 46
+    2300092: Cylinder 47
+    2300094: Cylinder 48
+    2300096: Cylinder 49
+    2300098: Cylinder 5
+    2300100: Cylinder 50
+    2300102: Cylinder 51
+    2300104: Cylinder 52
+    2300106: Cylinder 53
+    2300108: Cylinder 54
+    2300110: Cylinder 55
+    2300112: Cylinder 56
+    2300114: Cylinder 57
+    2300116: Cylinder 58
+    2300118: Cylinder 59
+    2300120: Cylinder 6
+    2300122: Cylinder 60
+    2300124: Cylinder 61
+    2300126: Cylinder 62
+    2300128: Cylinder 63
+    2300130: Cylinder 64
+    2300132: Cylinder 65
+    2300134: Cylinder 66
+    2300136: Cylinder 67
+    2300138: Cylinder 68
+    2300140: Cylinder 69
+    2300142: Cylinder 7
+    2300144: Cylinder 70
+    2300146: Cylinder 71
+    2300148: Cylinder 8
+    2300150: Cylinder 9
+    2300152: Cylinder(Clone)_cell_0
+    2300154: Cylinder(Clone)_cell_0 1
+    2300156: Cylinder(Clone)_cell_0 2
+    2300158: Cylinder(Clone)_cell_0 3
+    2300160: Cylinder(Clone)_cell_1
+    2300162: Cylinder(Clone)_cell_1 1
+    2300164: Cylinder(Clone)_cell_1 2
+    2300166: Cylinder(Clone)_cell_1 3
+    2300168: Cylinder(Clone)_cell_2
+    2300170: Cylinder(Clone)_cell_2 1
+    2300172: Cylinder(Clone)_cell_2 2
+    2300174: Cylinder(Clone)_cell_2 3
+    2300176: Cylinder(Clone)_spanU_0
+    2300178: Cylinder(Clone)_spanU_0 1
+    2300180: Cylinder(Clone)_spanU_0 2
+    2300182: Cylinder(Clone)_spanU_1
+    2300184: Cylinder(Clone)_spanU_1 1
+    2300186: Cylinder(Clone)_spanU_1 2
+    2300188: Cylinder(Clone)_spanU_2
+    2300190: Cylinder(Clone)_spanU_2 1
+    2300192: Cylinder(Clone)_spanU_2 2
+    2300194: Cylinder(Clone)_spanU_3
+    2300196: Cylinder(Clone)_spanU_3 1
+    2300198: Cylinder(Clone)_spanU_3 2
+    2300200: Cylinder(Clone)_spanU_4
+    2300202: Cylinder(Clone)_spanU_4 1
+    2300204: Cylinder(Clone)_spanU_4 2
+    2300206: Cylinder(Clone)_spanU_5
+    2300208: Cylinder(Clone)_spanU_5 1
+    2300210: Cylinder(Clone)_spanU_5 2
+    2300212: Extrude_108(Clone)_cell_0
+    2300214: Extrude_108(Clone)_cell_0 1
+    2300216: Extrude_141(Clone)_node_0
+    2300218: Extrude_141(Clone)_node_1
+    2300220: Extrude_141(Clone)_node_2
+    2300222: Extrude_141(Clone)_node_3
+    2300224: Extrude_141(Clone)_node_4
+    2300226: Extrude_141(Clone)_node_5
+    2300228: Extrude_151
+    2300230: Extrude_151 1
+    2300232: Extrude_151 2
+    2300234: Extrude_153
+    2300236: Extrude_153 1
+    2300238: Extrude_153 2
+    2300240: Extrude_175(Clone)_cell_0
+    2300242: Extrude_175(Clone)_cell_0 1
+    2300244: Extrude_175(Clone)_cell_0 2
+    2300246: Extrude_175(Clone)_cell_0 3
+    2300248: Extrude_175(Clone)_cell_0 4
+    2300250: Extrude_175(Clone)_cell_1
+    2300252: Extrude_175(Clone)_cell_1 1
+    2300254: Extrude_175(Clone)_cell_1 2
+    2300256: Extrude_175(Clone)_cell_1 3
+    2300258: Extrude_175(Clone)_cell_1 4
+    2300260: Extrude_175(Clone)_cell_2
+    2300262: Extrude_175(Clone)_cell_3
+    2300264: Extrude_327
+    2300266: Extrude_327 1
+    2300268: Extrude_327 2
+    2300270: Extrude_327 3
+    2300272: Extrude_331
+    2300274: Extrude_331 1
+    2300276: Extrude_331 2
+    2300278: Extrude_331 3
+    2300280: Extrude_99(Clone)_cell_0
+    2300282: Extrude_99(Clone)_cell_0 1
+    2300284: FlecheMontantBas(Clone)_node_left
+    2300286: FlecheMontantBas(Clone)_node_left 1
+    2300288: FlecheMontantBas(Clone)_node_left 2
+    2300290: FlecheMontantBas(Clone)_node_right
+    2300292: FlecheMontantBas(Clone)_node_right 1
+    2300294: FlecheMontantBas(Clone)_node_right 2
+    2300296: FlecheMontantHaut
+    2300298: FlecheMontantHaut 1
+    2300300: FlecheMontantHaut 2
+    2300302: FlecheMontantInterieur(Clone)_node_0
+    2300304: FlecheMontantInterieur(Clone)_node_0 1
+    2300306: FlecheMontantInterieur(Clone)_node_0 2
+    2300308: FlecheMontantInterieur(Clone)_node_1
+    2300310: FlecheMontantInterieur(Clone)_node_1 1
+    2300312: FlecheMontantInterieur(Clone)_node_1 2
+    2300314: FlecheMontantInterieur(Clone)_node_2
+    2300316: FlecheMontantInterieur(Clone)_node_2 1
+    2300318: FlecheMontantInterieur(Clone)_node_2 2
+    2300320: FlecheMontantInterieur(Clone)_node_3
+    2300322: FlecheMontantInterieur(Clone)_node_3 1
+    2300324: FlecheMontantInterieur(Clone)_node_3 2
+    2300326: FlecheMontantInterieur(Clone)_node_4
+    2300328: FlecheMontantInterieur(Clone)_node_4 1
+    2300330: FlecheMontantInterieur(Clone)_node_4 2
+    2300332: FlecheMontantInterieur(Clone)_node_5
+    2300334: FlecheMontantInterieur(Clone)_node_5 1
+    2300336: FlecheMontantInterieur(Clone)_node_5 2
+    2300338: FlecheMontantInterieur(Clone)_node_6
+    2300340: FlecheMontantInterieur(Clone)_node_6 1
+    2300342: FlecheMontantInterieur(Clone)_node_6 2
+    2300344: GT_Parametric_Contrepoids(Clone)
+    2300346: GT_Parametric_Fleche(Clone)
+    2300348: GT_Parametric_Fleche_Attache(Clone)
+    2300350: GT_Parametric_Fleche_Attache(Clone) 1
+    2300352: GT_Parametric_Fleche_Attache(Clone) 2
+    2300354: GT_Parametric_Fleche_Deco(Clone)
+    2300356: GT_Parametric_Fleche_Deco(Clone) 1
+    2300358: GT_Parametric_Fleche_Deco(Clone) 2
+    2300360: GT_Parametric_Hauban_Bas(Clone)
+    2300362: GT_Parametric_Hauban_Bas(Clone) 1
+    2300364: GT_Parametric_Hauban_Bas(Clone) 2
+    2300366: GT_Parametric_Hauban_Bas(Clone) 3
+    2300368: GT_Parametric_Hauban_Bas(Clone) 4
+    2300370: GT_Parametric_Hauban_Haut(Clone)
+    2300372: GT_Parametric_Hauban_Haut(Clone) 1
+    2300374: GT_Parametric_Hauban_Haut(Clone) 2
+    2300376: GT_Parametric_Hauban_Haut(Clone) 3
+    2300378: GT_Parametric_Hauban_Haut(Clone) 4
+    2300380: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    2300382: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 1
+    2300384: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 2
+    2300386: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 3
+    2300388: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 4
+    2300390: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_2
+    2300392: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_3
+    2300394: GT_Parametric_Panneau(Clone)
+    2300396: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    2300398: GT_Parametric_Piquet(Clone)(Clone)_node_0 1
+    2300400: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    2300402: GT_Parametric_Piquet(Clone)(Clone)_node_1 1
+    2300404: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    2300406: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0 1
+    2300408: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    2300410: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1 1
+    2300412: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    2300414: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10 1
+    2300416: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    2300418: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11 1
+    2300420: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    2300422: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2 1
+    2300424: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    2300426: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3 1
+    2300428: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    2300430: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4 1
+    2300432: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    2300434: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5 1
+    2300436: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    2300438: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6 1
+    2300440: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    2300442: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7 1
+    2300444: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    2300446: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8 1
+    2300448: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    2300450: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9 1
+    2300452: GT_Parametric_PorteFleche_Top(Clone)
+    2300454: Hook
+    2300456: item_1_PaintedMetal_Custom Tower
+    2300458: item_1_PaintedMetal_Custom Tower 1
+    2300460: item_1_PaintedMetal_Custom Tower 2
+    2300462: item_1_PaintedMetal_Custom Tower 3
+    2300464: item_1_PaintedMetal_Custom Tower 4
+    2300466: item_1_PaintedMetal_Custom Tower 5
+    2300468: item_1_PaintedMetal_Custom Tower 6
+    2300470: item_2_MetalGalvanized_Plate
+    2300472: item_2_MetalGalvanized_Plate 1
+    2300474: item_2_MetalGalvanized_Plate 2
+    2300476: item_2_MetalGalvanized_Plate 3
+    2300478: item_2_MetalGalvanized_Plate 4
+    2300480: item_2_MetalGalvanized_Plate 5
+    2300482: item_2_MetalGalvanized_Plate 6
+    2300484: item_3_MetalGalvanized
+    2300486: item_3_MetalGalvanized 1
+    2300488: item_3_MetalGalvanized 2
+    2300490: item_3_MetalGalvanized 3
+    2300492: item_3_MetalGalvanized 4
+    2300494: item_3_MetalGalvanized 5
+    2300496: item_3_MetalGalvanized 6
+    2300498: item_4_MetalClean
+    2300500: item_4_MetalClean 1
+    2300502: item_4_MetalClean 2
+    2300504: item_4_MetalClean 3
+    2300506: item_4_MetalClean 4
+    2300508: item_4_MetalClean 5
+    2300510: item_4_MetalClean 6
+    2300512: PlanSweep_133
+    2300514: PlanSweep_146(Clone)_cell_0
+    2300516: PlanSweep_146(Clone)_cell_1
+    2300518: PlanSweep_146(Clone)_cell_2
+    2300520: PlanSweep_146(Clone)_cell_3
+    2300522: PlanSweep_146(Clone)_cell_4
+    2300524: PlanSweep_146(Clone)_cell_5
+    2300526: PlanSweep_189
+    2300528: PlanSweep_189 1
+    2300530: PlanSweep_189 2
+    2300532: PlanSweep_189 3
+    2300534: PlanSweep_322
+    2300536: PlanSweep_322 1
+    2300538: Trolley(Clone)
+    2300540: Turntable
+    2300542: Turntable_Axis(Clone)
+    3300000: 85ECB_SM_CABINE_FENETRES
+    3300002: 85ECB_SM_SEAT
+    3300004: Base
+    3300006: Cabin
+    3300008: Cylinder
+    3300010: Cylinder 1
+    3300012: Cylinder 10
+    3300014: Cylinder 11
+    3300016: Cylinder 12
+    3300018: Cylinder 13
+    3300020: Cylinder 14
+    3300022: Cylinder 15
+    3300024: Cylinder 16
+    3300026: Cylinder 17
+    3300028: Cylinder 18
+    3300030: Cylinder 19
+    3300032: Cylinder 2
+    3300034: Cylinder 20
+    3300036: Cylinder 21
+    3300038: Cylinder 22
+    3300040: Cylinder 23
+    3300042: Cylinder 24
+    3300044: Cylinder 25
+    3300046: Cylinder 26
+    3300048: Cylinder 27
+    3300050: Cylinder 28
+    3300052: Cylinder 29
+    3300054: Cylinder 3
+    3300056: Cylinder 30
+    3300058: Cylinder 31
+    3300060: Cylinder 32
+    3300062: Cylinder 33
+    3300064: Cylinder 34
+    3300066: Cylinder 35
+    3300068: Cylinder 36
+    3300070: Cylinder 37
+    3300072: Cylinder 38
+    3300074: Cylinder 39
+    3300076: Cylinder 4
+    3300078: Cylinder 40
+    3300080: Cylinder 41
+    3300082: Cylinder 42
+    3300084: Cylinder 43
+    3300086: Cylinder 44
+    3300088: Cylinder 45
+    3300090: Cylinder 46
+    3300092: Cylinder 47
+    3300094: Cylinder 48
+    3300096: Cylinder 49
+    3300098: Cylinder 5
+    3300100: Cylinder 50
+    3300102: Cylinder 51
+    3300104: Cylinder 52
+    3300106: Cylinder 53
+    3300108: Cylinder 54
+    3300110: Cylinder 55
+    3300112: Cylinder 56
+    3300114: Cylinder 57
+    3300116: Cylinder 58
+    3300118: Cylinder 59
+    3300120: Cylinder 6
+    3300122: Cylinder 60
+    3300124: Cylinder 61
+    3300126: Cylinder 62
+    3300128: Cylinder 63
+    3300130: Cylinder 64
+    3300132: Cylinder 65
+    3300134: Cylinder 66
+    3300136: Cylinder 67
+    3300138: Cylinder 68
+    3300140: Cylinder 69
+    3300142: Cylinder 7
+    3300144: Cylinder 70
+    3300146: Cylinder 71
+    3300148: Cylinder 8
+    3300150: Cylinder 9
+    3300152: Cylinder(Clone)_cell_0
+    3300154: Cylinder(Clone)_cell_0 1
+    3300156: Cylinder(Clone)_cell_0 2
+    3300158: Cylinder(Clone)_cell_0 3
+    3300160: Cylinder(Clone)_cell_1
+    3300162: Cylinder(Clone)_cell_1 1
+    3300164: Cylinder(Clone)_cell_1 2
+    3300166: Cylinder(Clone)_cell_1 3
+    3300168: Cylinder(Clone)_cell_2
+    3300170: Cylinder(Clone)_cell_2 1
+    3300172: Cylinder(Clone)_cell_2 2
+    3300174: Cylinder(Clone)_cell_2 3
+    3300176: Cylinder(Clone)_spanU_0
+    3300178: Cylinder(Clone)_spanU_0 1
+    3300180: Cylinder(Clone)_spanU_0 2
+    3300182: Cylinder(Clone)_spanU_1
+    3300184: Cylinder(Clone)_spanU_1 1
+    3300186: Cylinder(Clone)_spanU_1 2
+    3300188: Cylinder(Clone)_spanU_2
+    3300190: Cylinder(Clone)_spanU_2 1
+    3300192: Cylinder(Clone)_spanU_2 2
+    3300194: Cylinder(Clone)_spanU_3
+    3300196: Cylinder(Clone)_spanU_3 1
+    3300198: Cylinder(Clone)_spanU_3 2
+    3300200: Cylinder(Clone)_spanU_4
+    3300202: Cylinder(Clone)_spanU_4 1
+    3300204: Cylinder(Clone)_spanU_4 2
+    3300206: Cylinder(Clone)_spanU_5
+    3300208: Cylinder(Clone)_spanU_5 1
+    3300210: Cylinder(Clone)_spanU_5 2
+    3300212: Extrude_108(Clone)_cell_0
+    3300214: Extrude_108(Clone)_cell_0 1
+    3300216: Extrude_141(Clone)_node_0
+    3300218: Extrude_141(Clone)_node_1
+    3300220: Extrude_141(Clone)_node_2
+    3300222: Extrude_141(Clone)_node_3
+    3300224: Extrude_141(Clone)_node_4
+    3300226: Extrude_141(Clone)_node_5
+    3300228: Extrude_151
+    3300230: Extrude_151 1
+    3300232: Extrude_151 2
+    3300234: Extrude_153
+    3300236: Extrude_153 1
+    3300238: Extrude_153 2
+    3300240: Extrude_175(Clone)_cell_0
+    3300242: Extrude_175(Clone)_cell_0 1
+    3300244: Extrude_175(Clone)_cell_0 2
+    3300246: Extrude_175(Clone)_cell_0 3
+    3300248: Extrude_175(Clone)_cell_0 4
+    3300250: Extrude_175(Clone)_cell_1
+    3300252: Extrude_175(Clone)_cell_1 1
+    3300254: Extrude_175(Clone)_cell_1 2
+    3300256: Extrude_175(Clone)_cell_1 3
+    3300258: Extrude_175(Clone)_cell_1 4
+    3300260: Extrude_175(Clone)_cell_2
+    3300262: Extrude_175(Clone)_cell_3
+    3300264: Extrude_327
+    3300266: Extrude_327 1
+    3300268: Extrude_327 2
+    3300270: Extrude_327 3
+    3300272: Extrude_331
+    3300274: Extrude_331 1
+    3300276: Extrude_331 2
+    3300278: Extrude_331 3
+    3300280: Extrude_99(Clone)_cell_0
+    3300282: Extrude_99(Clone)_cell_0 1
+    3300284: FlecheMontantBas(Clone)_node_left
+    3300286: FlecheMontantBas(Clone)_node_left 1
+    3300288: FlecheMontantBas(Clone)_node_left 2
+    3300290: FlecheMontantBas(Clone)_node_right
+    3300292: FlecheMontantBas(Clone)_node_right 1
+    3300294: FlecheMontantBas(Clone)_node_right 2
+    3300296: FlecheMontantHaut
+    3300298: FlecheMontantHaut 1
+    3300300: FlecheMontantHaut 2
+    3300302: FlecheMontantInterieur(Clone)_node_0
+    3300304: FlecheMontantInterieur(Clone)_node_0 1
+    3300306: FlecheMontantInterieur(Clone)_node_0 2
+    3300308: FlecheMontantInterieur(Clone)_node_1
+    3300310: FlecheMontantInterieur(Clone)_node_1 1
+    3300312: FlecheMontantInterieur(Clone)_node_1 2
+    3300314: FlecheMontantInterieur(Clone)_node_2
+    3300316: FlecheMontantInterieur(Clone)_node_2 1
+    3300318: FlecheMontantInterieur(Clone)_node_2 2
+    3300320: FlecheMontantInterieur(Clone)_node_3
+    3300322: FlecheMontantInterieur(Clone)_node_3 1
+    3300324: FlecheMontantInterieur(Clone)_node_3 2
+    3300326: FlecheMontantInterieur(Clone)_node_4
+    3300328: FlecheMontantInterieur(Clone)_node_4 1
+    3300330: FlecheMontantInterieur(Clone)_node_4 2
+    3300332: FlecheMontantInterieur(Clone)_node_5
+    3300334: FlecheMontantInterieur(Clone)_node_5 1
+    3300336: FlecheMontantInterieur(Clone)_node_5 2
+    3300338: FlecheMontantInterieur(Clone)_node_6
+    3300340: FlecheMontantInterieur(Clone)_node_6 1
+    3300342: FlecheMontantInterieur(Clone)_node_6 2
+    3300344: GT_Parametric_Contrepoids(Clone)
+    3300346: GT_Parametric_Fleche(Clone)
+    3300348: GT_Parametric_Fleche_Attache(Clone)
+    3300350: GT_Parametric_Fleche_Attache(Clone) 1
+    3300352: GT_Parametric_Fleche_Attache(Clone) 2
+    3300354: GT_Parametric_Fleche_Deco(Clone)
+    3300356: GT_Parametric_Fleche_Deco(Clone) 1
+    3300358: GT_Parametric_Fleche_Deco(Clone) 2
+    3300360: GT_Parametric_Hauban_Bas(Clone)
+    3300362: GT_Parametric_Hauban_Bas(Clone) 1
+    3300364: GT_Parametric_Hauban_Bas(Clone) 2
+    3300366: GT_Parametric_Hauban_Bas(Clone) 3
+    3300368: GT_Parametric_Hauban_Bas(Clone) 4
+    3300370: GT_Parametric_Hauban_Haut(Clone)
+    3300372: GT_Parametric_Hauban_Haut(Clone) 1
+    3300374: GT_Parametric_Hauban_Haut(Clone) 2
+    3300376: GT_Parametric_Hauban_Haut(Clone) 3
+    3300378: GT_Parametric_Hauban_Haut(Clone) 4
+    3300380: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    3300382: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 1
+    3300384: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 2
+    3300386: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 3
+    3300388: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1 4
+    3300390: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_2
+    3300392: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_3
+    3300394: GT_Parametric_Panneau(Clone)
+    3300396: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    3300398: GT_Parametric_Piquet(Clone)(Clone)_node_0 1
+    3300400: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    3300402: GT_Parametric_Piquet(Clone)(Clone)_node_1 1
+    3300404: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    3300406: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0 1
+    3300408: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    3300410: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1 1
+    3300412: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    3300414: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10 1
+    3300416: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    3300418: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11 1
+    3300420: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    3300422: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2 1
+    3300424: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    3300426: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3 1
+    3300428: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    3300430: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4 1
+    3300432: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    3300434: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5 1
+    3300436: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    3300438: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6 1
+    3300440: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    3300442: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7 1
+    3300444: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    3300446: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8 1
+    3300448: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    3300450: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9 1
+    3300452: GT_Parametric_PorteFleche_Top(Clone)
+    3300454: Hook
+    3300456: item_1_PaintedMetal_Custom Tower
+    3300458: item_1_PaintedMetal_Custom Tower 1
+    3300460: item_1_PaintedMetal_Custom Tower 2
+    3300462: item_1_PaintedMetal_Custom Tower 3
+    3300464: item_1_PaintedMetal_Custom Tower 4
+    3300466: item_1_PaintedMetal_Custom Tower 5
+    3300468: item_1_PaintedMetal_Custom Tower 6
+    3300470: item_2_MetalGalvanized_Plate
+    3300472: item_2_MetalGalvanized_Plate 1
+    3300474: item_2_MetalGalvanized_Plate 2
+    3300476: item_2_MetalGalvanized_Plate 3
+    3300478: item_2_MetalGalvanized_Plate 4
+    3300480: item_2_MetalGalvanized_Plate 5
+    3300482: item_2_MetalGalvanized_Plate 6
+    3300484: item_3_MetalGalvanized
+    3300486: item_3_MetalGalvanized 1
+    3300488: item_3_MetalGalvanized 2
+    3300490: item_3_MetalGalvanized 3
+    3300492: item_3_MetalGalvanized 4
+    3300494: item_3_MetalGalvanized 5
+    3300496: item_3_MetalGalvanized 6
+    3300498: item_4_MetalClean
+    3300500: item_4_MetalClean 1
+    3300502: item_4_MetalClean 2
+    3300504: item_4_MetalClean 3
+    3300506: item_4_MetalClean 4
+    3300508: item_4_MetalClean 5
+    3300510: item_4_MetalClean 6
+    3300512: PlanSweep_133
+    3300514: PlanSweep_146(Clone)_cell_0
+    3300516: PlanSweep_146(Clone)_cell_1
+    3300518: PlanSweep_146(Clone)_cell_2
+    3300520: PlanSweep_146(Clone)_cell_3
+    3300522: PlanSweep_146(Clone)_cell_4
+    3300524: PlanSweep_146(Clone)_cell_5
+    3300526: PlanSweep_189
+    3300528: PlanSweep_189 1
+    3300530: PlanSweep_189 2
+    3300532: PlanSweep_189 3
+    3300534: PlanSweep_322
+    3300536: PlanSweep_322 1
+    3300538: Trolley(Clone)
+    3300540: Turntable
+    3300542: Turntable_Axis(Clone)
+    4300000: Extrude_108(Clone)_cell_0
+    4300002: Extrude_108(Clone)_cell_0
+    4300004: Extrude_99(Clone)_cell_0
+    4300006: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    4300008: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    4300010: Extrude_99(Clone)_cell_0
+    4300012: GT_Parametric_Piquet(Clone)(Clone)_node_1
+    4300014: GT_Parametric_Piquet(Clone)(Clone)_node_0
+    4300016: Base
+    4300018: Extrude_331
+    4300020: Extrude_327
+    4300022: Extrude_331
+    4300024: Extrude_327
+    4300026: Extrude_331
+    4300028: Extrude_327
+    4300030: Extrude_331
+    4300032: Extrude_327
+    4300034: PlanSweep_322
+    4300036: PlanSweep_322
+    4300038: item_4_MetalClean
+    4300040: item_3_MetalGalvanized
+    4300042: item_2_MetalGalvanized_Plate
+    4300044: item_1_PaintedMetal_Custom Tower
+    4300046: item_4_MetalClean
+    4300048: item_3_MetalGalvanized
+    4300050: item_2_MetalGalvanized_Plate
+    4300052: item_1_PaintedMetal_Custom Tower
+    4300054: item_4_MetalClean
+    4300056: item_3_MetalGalvanized
+    4300058: item_2_MetalGalvanized_Plate
+    4300060: item_1_PaintedMetal_Custom Tower
+    4300062: item_4_MetalClean
+    4300064: item_3_MetalGalvanized
+    4300066: item_2_MetalGalvanized_Plate
+    4300068: item_1_PaintedMetal_Custom Tower
+    4300070: item_4_MetalClean
+    4300072: item_3_MetalGalvanized
+    4300074: item_2_MetalGalvanized_Plate
+    4300076: item_1_PaintedMetal_Custom Tower
+    4300078: item_4_MetalClean
+    4300080: item_3_MetalGalvanized
+    4300082: item_2_MetalGalvanized_Plate
+    4300084: item_1_PaintedMetal_Custom Tower
+    4300086: item_4_MetalClean
+    4300088: item_3_MetalGalvanized
+    4300090: item_2_MetalGalvanized_Plate
+    4300092: item_1_PaintedMetal_Custom Tower
+    4300094: Turntable_Axis(Clone)
+    4300096: GT_Parametric_Hauban_Haut(Clone)
+    4300098: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_3
+    4300100: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_2
+    4300102: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    4300104: Extrude_175(Clone)_cell_3
+    4300106: Extrude_175(Clone)_cell_2
+    4300108: Extrude_175(Clone)_cell_1
+    4300110: Extrude_175(Clone)_cell_0
+    4300112: GT_Parametric_Hauban_Bas(Clone)
+    4300114: GT_Parametric_Hauban_Haut(Clone)
+    4300116: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    4300118: Extrude_175(Clone)_cell_1
+    4300120: Extrude_175(Clone)_cell_0
+    4300122: GT_Parametric_Hauban_Bas(Clone)
+    4300124: GT_Parametric_Hauban_Haut(Clone)
+    4300126: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    4300128: Extrude_175(Clone)_cell_1
+    4300130: Extrude_175(Clone)_cell_0
+    4300132: GT_Parametric_Hauban_Bas(Clone)
+    4300134: PlanSweep_189
+    4300136: PlanSweep_189
+    4300138: PlanSweep_189
+    4300140: PlanSweep_189
+    4300142: GT_Parametric_PorteFleche_Top(Clone)
+    4300144: GT_Parametric_Hauban_Haut(Clone)
+    4300146: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    4300148: Extrude_175(Clone)_cell_1
+    4300150: Extrude_175(Clone)_cell_0
+    4300152: GT_Parametric_Hauban_Bas(Clone)
+    4300154: GT_Parametric_Hauban_Haut(Clone)
+    4300156: GT_Parametric_Hauban_Milieu(Clone)(Clone)_node_1
+    4300158: Extrude_175(Clone)_cell_1
+    4300160: Extrude_175(Clone)_cell_0
+    4300162: GT_Parametric_Hauban_Bas(Clone)
+    4300164: GT_Parametric_Panneau(Clone)
+    4300166: Cylinder(Clone)_cell_2
+    4300168: Cylinder(Clone)_cell_1
+    4300170: Cylinder(Clone)_cell_0
+    4300172: Cylinder(Clone)_cell_2
+    4300174: Cylinder(Clone)_cell_1
+    4300176: Cylinder(Clone)_cell_0
+    4300178: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    4300180: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    4300182: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    4300184: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    4300186: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    4300188: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    4300190: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    4300192: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    4300194: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    4300196: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    4300198: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    4300200: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    4300202: Cylinder(Clone)_cell_2
+    4300204: Cylinder(Clone)_cell_1
+    4300206: Cylinder(Clone)_cell_0
+    4300208: Cylinder(Clone)_cell_2
+    4300210: Cylinder(Clone)_cell_1
+    4300212: Cylinder(Clone)_cell_0
+    4300214: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_11
+    4300216: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_10
+    4300218: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_9
+    4300220: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_8
+    4300222: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_7
+    4300224: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_6
+    4300226: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_5
+    4300228: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_4
+    4300230: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_3
+    4300232: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_2
+    4300234: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_1
+    4300236: GT_Parametric_PiquetRambarde(Clone)(Clone)_node_0
+    4300238: Extrude_153
+    4300240: Extrude_151
+    4300242: Extrude_153
+    4300244: Extrude_151
+    4300246: Extrude_153
+    4300248: Extrude_151
+    4300250: PlanSweep_146(Clone)_cell_5
+    4300252: PlanSweep_146(Clone)_cell_4
+    4300254: PlanSweep_146(Clone)_cell_3
+    4300256: PlanSweep_146(Clone)_cell_2
+    4300258: PlanSweep_146(Clone)_cell_1
+    4300260: PlanSweep_146(Clone)_cell_0
+    4300262: Extrude_141(Clone)_node_5
+    4300264: Extrude_141(Clone)_node_4
+    4300266: Extrude_141(Clone)_node_3
+    4300268: Extrude_141(Clone)_node_2
+    4300270: Extrude_141(Clone)_node_1
+    4300272: Extrude_141(Clone)_node_0
+    4300274: PlanSweep_133
+    4300276: GT_Parametric_Contrepoids(Clone)
+    4300278: Hook
+    4300280: Trolley(Clone)
+    4300282: GT_Parametric_Fleche(Clone)
+    4300284: GT_Parametric_Fleche_Attache(Clone)
+    4300286: Cylinder
+    4300288: Cylinder
+    4300290: Cylinder
+    4300292: Cylinder
+    4300294: Cylinder
+    4300296: Cylinder
+    4300298: Cylinder
+    4300300: Cylinder
+    4300302: Cylinder
+    4300304: Cylinder
+    4300306: Cylinder
+    4300308: Cylinder
+    4300310: Cylinder
+    4300312: Cylinder
+    4300314: Cylinder
+    4300316: Cylinder
+    4300318: Cylinder
+    4300320: Cylinder
+    4300322: Cylinder
+    4300324: Cylinder
+    4300326: Cylinder
+    4300328: Cylinder
+    4300330: Cylinder
+    4300332: Cylinder
+    4300334: Cylinder(Clone)_spanU_5
+    4300336: Cylinder(Clone)_spanU_4
+    4300338: Cylinder(Clone)_spanU_3
+    4300340: Cylinder(Clone)_spanU_2
+    4300342: Cylinder(Clone)_spanU_1
+    4300344: Cylinder(Clone)_spanU_0
+    4300346: GT_Parametric_Fleche_Deco(Clone)
+    4300348: FlecheMontantHaut
+    4300350: FlecheMontantInterieur(Clone)_node_6
+    4300352: FlecheMontantInterieur(Clone)_node_5
+    4300354: FlecheMontantInterieur(Clone)_node_4
+    4300356: FlecheMontantInterieur(Clone)_node_3
+    4300358: FlecheMontantInterieur(Clone)_node_2
+    4300360: FlecheMontantInterieur(Clone)_node_1
+    4300362: FlecheMontantInterieur(Clone)_node_0
+    4300364: FlecheMontantBas(Clone)_node_left
+    4300366: FlecheMontantBas(Clone)_node_right
+    4300368: GT_Parametric_Fleche_Attache(Clone)
+    4300370: Cylinder
+    4300372: Cylinder
+    4300374: Cylinder
+    4300376: Cylinder
+    4300378: Cylinder
+    4300380: Cylinder
+    4300382: Cylinder
+    4300384: Cylinder
+    4300386: Cylinder
+    4300388: Cylinder
+    4300390: Cylinder
+    4300392: Cylinder
+    4300394: Cylinder
+    4300396: Cylinder
+    4300398: Cylinder
+    4300400: Cylinder
+    4300402: Cylinder
+    4300404: Cylinder
+    4300406: Cylinder
+    4300408: Cylinder
+    4300410: Cylinder
+    4300412: Cylinder
+    4300414: Cylinder
+    4300416: Cylinder
+    4300418: Cylinder(Clone)_spanU_5
+    4300420: Cylinder(Clone)_spanU_4
+    4300422: Cylinder(Clone)_spanU_3
+    4300424: Cylinder(Clone)_spanU_2
+    4300426: Cylinder(Clone)_spanU_1
+    4300428: Cylinder(Clone)_spanU_0
+    4300430: GT_Parametric_Fleche_Deco(Clone)
+    4300432: FlecheMontantHaut
+    4300434: FlecheMontantInterieur(Clone)_node_6
+    4300436: FlecheMontantInterieur(Clone)_node_5
+    4300438: FlecheMontantInterieur(Clone)_node_4
+    4300440: FlecheMontantInterieur(Clone)_node_3
+    4300442: FlecheMontantInterieur(Clone)_node_2
+    4300444: FlecheMontantInterieur(Clone)_node_1
+    4300446: FlecheMontantInterieur(Clone)_node_0
+    4300448: FlecheMontantBas(Clone)_node_left
+    4300450: FlecheMontantBas(Clone)_node_right
+    4300452: GT_Parametric_Fleche_Attache(Clone)
+    4300454: Cylinder
+    4300456: Cylinder
+    4300458: Cylinder
+    4300460: Cylinder
+    4300462: Cylinder
+    4300464: Cylinder
+    4300466: Cylinder
+    4300468: Cylinder
+    4300470: Cylinder
+    4300472: Cylinder
+    4300474: Cylinder
+    4300476: Cylinder
+    4300478: Cylinder
+    4300480: Cylinder
+    4300482: Cylinder
+    4300484: Cylinder
+    4300486: Cylinder
+    4300488: Cylinder
+    4300490: Cylinder
+    4300492: Cylinder
+    4300494: Cylinder
+    4300496: Cylinder
+    4300498: Cylinder
+    4300500: Cylinder
+    4300502: Cylinder(Clone)_spanU_5
+    4300504: Cylinder(Clone)_spanU_4
+    4300506: Cylinder(Clone)_spanU_3
+    4300508: Cylinder(Clone)_spanU_2
+    4300510: Cylinder(Clone)_spanU_1
+    4300512: Cylinder(Clone)_spanU_0
+    4300514: GT_Parametric_Fleche_Deco(Clone)
+    4300516: FlecheMontantHaut
+    4300518: FlecheMontantInterieur(Clone)_node_6
+    4300520: FlecheMontantInterieur(Clone)_node_5
+    4300522: FlecheMontantInterieur(Clone)_node_4
+    4300524: FlecheMontantInterieur(Clone)_node_3
+    4300526: FlecheMontantInterieur(Clone)_node_2
+    4300528: FlecheMontantInterieur(Clone)_node_1
+    4300530: FlecheMontantInterieur(Clone)_node_0
+    4300532: FlecheMontantBas(Clone)_node_left
+    4300534: FlecheMontantBas(Clone)_node_right
+    4300536: Turntable
+    4300538: Cabin
+    4300540: 85ECB_SM_SEAT
+    4300542: 85ECB_SM_CABINE_FENETRES
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
