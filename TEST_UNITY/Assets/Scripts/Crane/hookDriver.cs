@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -11,15 +10,21 @@ public class HookDriver : MonoBehaviour
     [SerializeField]
     private float m_hookDuration = 2.0f;
     private float m_hookingTime = 0.0f;
-    private Load m_currentLoad;
+    private Load m_loadCandidate;
+    private Load m_currentload;
+    private LoadCanvas m_loadCanvas;
+
     private Coroutine currentTimer;
 
     private void Start()
     {
+
         //set up rigid body for fixed joint
         m_rigidBody = GetComponent<Rigidbody>();
         m_rigidBody.useGravity = false;
         m_rigidBody.isKinematic = true;
+
+        m_loadCanvas = FindObjectOfType<LoadCanvas>();
     }
 
     // Update is called once per frame
@@ -38,21 +43,21 @@ public class HookDriver : MonoBehaviour
     {
         if (hookFree)
         {
-            m_currentLoad = hookedLoad;
+            m_loadCandidate = hookedLoad;
             currentTimer = StartCoroutine(TimeHooking(hookedLoad));
         }
     }
     public void StopHook(Load hookedLoad)
     {
-        if (hookFree && m_currentLoad == hookedLoad)
+        if (hookFree && m_loadCandidate == hookedLoad)
         {
             StopCoroutine(currentTimer);
             m_hookingTime = 0.0f;
-            m_currentLoad = null;
+            m_loadCandidate = null;
         }
     }
 
-    private IEnumerator TimeHooking(Load hookedLoad) 
+    private IEnumerator TimeHooking(Load hookedLoad)
     {
         while (m_hookingTime < m_hookDuration)//waiting the needed time
         {
@@ -61,7 +66,7 @@ public class HookDriver : MonoBehaviour
         }
         CloseHook(hookedLoad);
         m_hookingTime = 0.0f;
-        m_currentLoad = null;
+        m_loadCandidate = null;
         yield break;
     }
 
@@ -72,6 +77,8 @@ public class HookDriver : MonoBehaviour
         m_fixedJoint = gameObject.AddComponent<FixedJoint>(); //creating the joint
         m_fixedJoint.connectedBody = hookedLoad.GetComponent<Rigidbody>();//attaching the load
         hookFree = false;
+        m_currentload = hookedLoad;
+        m_loadCanvas.HighLightLoad(m_currentload, true);
 
     }
     private void ReleaseHook()
@@ -79,5 +86,8 @@ public class HookDriver : MonoBehaviour
         Destroy(m_fixedJoint); //freeing the load
 
         hookFree = true;
+        m_loadCanvas.HighLightLoad(m_currentload, false);
+        m_currentload = null;
+
     }
 }

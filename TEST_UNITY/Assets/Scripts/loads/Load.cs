@@ -13,15 +13,41 @@ public class Load : MonoBehaviour
     private bool m_hookInRange = false;
     private bool m_hookInRangePrevValue;
 
+    public string LoadName
+    {
+        get
+        {
+            return m_loadName;
+        }
+
+        private set
+        {
+            m_loadName = value;
+        }
+    }
+
+    public float LoadMass
+    {
+        get
+        {
+            return m_loadMass;
+        }
+
+        private set
+        {
+            m_loadMass = value;
+        }
+    }
 
     private void Start()
     {
+        FindObjectOfType<LoadCanvas>().AddLoad(this);
         m_hook = FindObjectOfType<HookDriver>();
     }
 
     private void Update()
     {
-        m_hookInRange = Vector3.Distance(this.transform.position, m_hook.transform.position) <= m_hookMaxRange; //checking the range
+        m_hookInRange = Vector3.Distance(this.transform.position, m_hook.transform.position) < m_hookMaxRange; //checking the range
         if (m_hookInRange != m_hookInRangePrevValue) //only if the state changed
         {
             if (m_hookInRange)
