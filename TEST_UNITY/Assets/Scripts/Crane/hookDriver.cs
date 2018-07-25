@@ -79,6 +79,7 @@ public class HookDriver : MonoBehaviour
         hookFree = false;
         m_currentload = hookedLoad;
         m_loadCanvas.HighLightLoad(m_currentload, true);
+        hookedLoad.CreateDropZone();
 
     }
     private void ReleaseHook()

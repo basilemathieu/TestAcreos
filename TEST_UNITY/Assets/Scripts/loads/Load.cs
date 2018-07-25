@@ -9,9 +9,12 @@ public class Load : MonoBehaviour
     private float m_loadMass;
     [SerializeField]
     private float m_hookMaxRange = 0.5f;
+    [SerializeField]
+    private Transform m_dropZoneTarget;
     private HookDriver m_hook;
     private bool m_hookInRange = false;
     private bool m_hookInRangePrevValue;
+    private Renderer m_transparentModel;
 
     public string LoadName
     {
@@ -43,6 +46,7 @@ public class Load : MonoBehaviour
     {
         FindObjectOfType<LoadCanvas>().AddLoad(this);
         m_hook = FindObjectOfType<HookDriver>();
+       // GetComponentInChildren<Renderer>().material.color = new Color(1, 1, 1, 0.3f);
     }
 
     private void Update()
@@ -60,6 +64,16 @@ public class Load : MonoBehaviour
             }
         }
         m_hookInRangePrevValue = m_hookInRange; //recording state
+    }
+
+    public void CreateDropZone()
+    {
+        foreach(Renderer model in GetComponentsInChildren<Renderer>())
+        {
+            m_transparentModel = Instantiate(model.gameObject, m_dropZoneTarget, false).GetComponent<Renderer>();
+            m_transparentModel.material.shader= Shader.Find("Transparent/Diffuse");
+            m_transparentModel.material.color = new Color(1, 1, 1, 0.5f);
+        }
     }
 
 }
